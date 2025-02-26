@@ -14,12 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@color/gray"
+        android:background="#FFFFFF"
         android:ems="10"
         android:gravity="end|center"
         android:inputType="textPersonName"
         android:text="0"
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         android:textSize="96sp"
         android:typeface="normal" />
 
@@ -35,40 +35,15 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:scrollHorizontally="false"
                 android:selectAllOnFocus="false"
                 android:text="√"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
-
-            <Button
-                android:id="@+id/buPower"
-                android:layout_marginRight="1pt"
-                android:layout_weight="1"
-                android:width="30pt"
-                android:height="30pt"
-                android:backgroundTint="@color/blue"
-                android:text="xⁿ"
-                android:textColor="#318BCE"
-                android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
-
-            <Button
-                android:id="@+id/buLn"
-                android:layout_marginRight="1pt"
-                android:layout_weight="1"
-                android:width="30pt"
-                android:height="30pt"
-                android:backgroundTint="@color/blue"
-                android:text="ln"
-                android:textColor="#318BCE"
-                android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buSquare"
@@ -77,12 +52,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="x²"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -93,12 +69,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="sin"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buCos"
@@ -106,12 +83,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="cos"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="32sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buTan"
@@ -119,12 +97,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="tan"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buLog"
@@ -132,13 +111,14 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="log"
                 android:textAllCaps="false"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -149,13 +129,15 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="AC"
                 android:textAlignment="center"
-                android:textColor="#318BCE"
-                android:textSize="34sp"
+                android:textColor="#DE16DA"
+                android:textSize="24sp"
                 android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buPlusMinus"
@@ -163,12 +145,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="+/-"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buPercent"
@@ -176,12 +159,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="%"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buDelete"
@@ -189,12 +173,14 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="DEL"
-                android:textColor="#318BCE"
-                android:textSize="32sp"
+                android:textColor="#DE16DA"
+                android:textSize="24sp"
                 android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -205,11 +191,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="7"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu8"
@@ -217,11 +205,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="8"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu9"
@@ -229,11 +219,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="9"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buMul"
@@ -241,12 +233,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="X"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -257,11 +250,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="4"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu5"
@@ -269,11 +264,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="5"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu6"
@@ -281,11 +278,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="6"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buDev"
@@ -293,12 +292,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="/"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -309,11 +309,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="1"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu2"
@@ -321,11 +323,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="2"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/bu3"
@@ -333,11 +337,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="3"
+                android:textColor="#000000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buMinus"
@@ -345,12 +351,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="-"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
         <TableRow>
@@ -361,11 +368,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="0"
+                android:textColor="#121212"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buDot"
@@ -373,10 +382,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="."
+                android:textColor="#121212"
                 android:textSize="34sp"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buEquals"
@@ -384,12 +396,14 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="="
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
                 android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
 
             <Button
                 android:id="@+id/buPlus"
@@ -397,12 +411,13 @@
                 android:layout_weight="1"
                 android:width="30pt"
                 android:height="30pt"
-                android:backgroundTint="@color/blue"
+                android:backgroundTint="#FFFFFF"
                 android:text="+"
-                android:textColor="#318BCE"
+                android:textColor="#DE16DA"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                android:typeface="normal" />
+                android:typeface="normal"
+                app:strokeColor="#7C6B6B"
+                app:strokeWidth="4dp" />
         </TableRow>
 
     </TableLayout>

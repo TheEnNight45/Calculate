@@ -72,12 +72,10 @@ public class MainActivity extends AppCompatActivity {
         // Научные кнопки
         Button buSqrt = findViewById(R.id.buSqrt);
         Button buSquare = findViewById(R.id.buSquare);
-        Button buPower = findViewById(R.id.buPower);
         Button buSin = findViewById(R.id.buSin);
         Button buCos = findViewById(R.id.buCos);
         Button buTan = findViewById(R.id.buTan);
         Button buLog = findViewById(R.id.buLog);
-        Button buLn = findViewById(R.id.buLn);
 
         // Установка обработчиков событий
         setupButtonWithAnimation(bu0,  () -> handleDigitInput("0"));
@@ -104,12 +102,10 @@ public class MainActivity extends AppCompatActivity {
 
         setupButtonWithAnimation(buSqrt, () -> handleScientificOperation("sqrt"));
         setupButtonWithAnimation(buSquare, () -> handleScientificOperation("square"));
-        setupButtonWithAnimation(buPower, () -> handleOperator("^"));
         setupButtonWithAnimation(buSin, () -> handleScientificOperation("sin"));
         setupButtonWithAnimation(buCos, () -> handleScientificOperation("cos"));
         setupButtonWithAnimation(buTan, () -> handleScientificOperation("tan"));
         setupButtonWithAnimation(buLog, () -> handleScientificOperation("log"));
-        setupButtonWithAnimation(buLn, () -> handleScientificOperation("ln"));
 
         editText.setOnKeyListener((v, keyCode, event) -> {
             if (event.getAction() == KeyEvent.ACTION_DOWN) {
